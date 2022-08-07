@@ -5,7 +5,7 @@ VisualStudioVersion = 17.1.32421.90
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "meeting_manager", "meeting_manager\meeting_manager.csproj", "{DDB22597-960F-4662-A782-82641486C707}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MeetinManagerTest", "meeting_test\MeetinManagerTest.csproj", "{D78A660F-D452-4DFA-88A2-966587B8E69C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "meeting_test", "meeting_test\meeting_test.csproj", "{D78A660F-D452-4DFA-88A2-966587B8E69C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
