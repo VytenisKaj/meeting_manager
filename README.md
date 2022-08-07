@@ -39,12 +39,13 @@ to use a command. It is not required to be logged on for most comamnds though. F
 Tried to keep syntax as simple as possible, but due to requirements, few things may seem odd at first:
 
 	● Note, that "create" and "ls"(list) commands have arguments, that MUST be seperated by '|', otherwise it will interpreted as a single argument.
-	● Due to descriptions of meetings being able to have several words, "ls" command has a strict syntax: **<filterType>(<filter>)**
+	● Due to descriptions of meetings being able to have several words, "ls" command has a strict syntax( ** are not included): **<filterType>(<filter>)**
 	where "filterType" code letter (they can be seen by running the program and using "?" command) must be led by '-' and there cannot be whitespace between filterType and opening '('
 	This is made so that filter itself could contain any caracters, including whitespaces. You are also allowed to use multiple filters and connect them using '|'.
 	● You can always use "?" or "help" commands to see all comamnds, their syntax and what they do.
 
 How to run: 
+
 	●The most straightforward(and recommended) way to run this project is to open it using Visual Studio 2022(older versions should work, but I have not tested it).
 	●Alternatively you can download the .zip, unzip it in your desired directory, then, using terminal, navigate to the directory, that has
 	"meeting_manager.sln" file and running it from there. Make sure, that you have "dotnet" installed, using "dotnet --version", if you get promted by a version number, you are good to go.
