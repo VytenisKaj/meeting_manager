@@ -15,9 +15,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Reference Include="meeting_manager">
-      <HintPath>..\..\meeting_manager\meeting_manager\bin\Debug\net6.0\meeting_manager.dll</HintPath>
-    </Reference>
+    <ProjectReference Include="..\meeting_manager\meeting_manager.csproj" />
   </ItemGroup>
 
 </Project>
